@@ -52,7 +52,18 @@ const add = (num1, num2) => {
 //console.log(add(2, 4))
 //console.log(add(5, 5))
 
+//Question 7 
 
+const isNegative = (num) => {
+    if (num < 0) {
+        return true
+    } else {
+        return false
+    }
+}
+//console.log(isNegative(3))
+//console.log(isNegative(-2))
+//console.log(isNegative(Math.PI))
 
 //Question 8
 const triangleArea = (height, base) => {
