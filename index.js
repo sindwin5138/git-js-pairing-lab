@@ -31,4 +31,16 @@ const untilNum = (num) => {
 untilNum(6)
 
 
+const add = (num1, num2) => {
+    if (num1 !== num2) {
+        return num1 + num2
+    } else {
+        return (num1 + num2) * 3
+    }
+}
+console.log(add(2, 4))
+console.log(add(5, 5))
+
+
+
 
