@@ -31,3 +31,11 @@ const add = (num1, num2) => {
 }
 console.log(add(2, 4))
 console.log(add(5, 5))
+
+
+
+
+const triangleArea = (height, base) => {
+    return (height * base) * (1 / 2)
+}
+console.log(triangleArea(5, 7))
