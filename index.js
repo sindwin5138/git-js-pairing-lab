@@ -43,13 +43,25 @@ console.log(add(5, 5))
 
 
 
-
+//Question 8
 const triangleArea = (height, base) => {
     return (height * base) * (1 / 2)
 }
-console.log(triangleArea(5, 7))
+//console.log(triangleArea(5, 7))
 
 
 
 
-
+//Question 10
+const largest = (a, b, c,) => {
+    if (a > b && a > c) {
+        return a
+    } else if (b > a && b > c) {
+        return b
+    } else {
+        return c
+    }
+}
+//console.log(largest(30, 22, 17))
+//console.log(largest(4, 6, 8))
+//console.log(largest(41, 108, 86))
