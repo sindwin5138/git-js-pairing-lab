@@ -13,10 +13,22 @@ const multiplesOfThreeOrFive = () => {
         }
     }
 }
-//multiplesOfThreeOrFive()
+multiplesOfThreeOrFive()
 
-const multiply = (num1, num2) => {
-    return num1 * num2
+const multiplesOfThree = () => {
+    for (let i = 3; i < 100; i += 3) {
+        console.log(i)
+    }
 }
+multiplesOfThree()
 
-multiply(2, 4)
+
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++) {
+        console.log(i)
+    }
+}
+untilNum(6)
+
+
+
