@@ -23,12 +23,22 @@ const multiplesOfThree = () => {
 multiplesOfThree()
 
 
+const multiply = (num1, num2) => {
+    return num1 * num2
+}
+
+(multiply(2, 4))
+
+
+
+
+
 const untilNum = (num) => {
     for (let i = 1; i <= num; i++) {
         console.log(i)
     }
 }
-untilNum(6)
+//untilNum(6)
 
 
 const add = (num1, num2) => {
